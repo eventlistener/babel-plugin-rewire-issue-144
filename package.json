@@ -1,0 +1,18 @@
+{
+  "name": "babel-plugin-rewire-issue-144",
+  "version": "0.0.1",
+  "description": "Minimal reproducible example for issue 144",
+  "main": "index.js",
+  "scripts": {
+    "test": "rm -rf dist && npx babel src --out-dir dist && node ./dist/test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/plugin-transform-runtime": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "babel-plugin-rewire": "^1.2.0"
+  }
+}
